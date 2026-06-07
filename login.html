@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Face Login</h2>
+
+<form action="/face_login" method="POST">
+
+<input type="text" name="username" placeholder="Enter Username" required>
+
+<button type="submit">Login With Face</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
