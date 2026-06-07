@@ -32,10 +32,6 @@ This application captures facial images, extracts unique facial features, and pe
 * Python
 * Flask
 
-### Database
-
-* SQLite / MySQL
-
 ### AI & Computer Vision
 
 * OpenCV
